@@ -1,0 +1,168 @@
+body {
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.input-params {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+input[type=text] {
+    border: 0;
+    height: 40px;
+    width: 65px;
+    text-align: center;
+    background-color: #FFFBFF;
+    font-size:30px;
+    font-weight: 200;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+input[type=text]:hover {
+    outline:none;
+    background-color: #FEE5AC;
+}   
+
+input[type=text]:focus {
+    outline:none;
+    background-color: rgba(254, 229, 172, 0.4);
+}  
+
+.chart-container {
+    margin-left: 20px;
+    width: 70%;
+    height: 70%;
+}
+
+@media only screen and (max-width: 1178px) {
+    .input-params {
+        font-size: 20px;
+    }
+    
+    input[type=text] {
+        font-size: 20px;
+        width: 30px;
+    }
+
+    
+    body {
+        font-size: 15px;
+    }
+
+    .input-display {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    .input-params {
+        font-size: 15px;
+    }
+    
+    input[type=text] {
+        font-size: 15px;
+        width: 25px;
+        height: 25px;
+    }
+    
+    
+    body {
+        font-size: 10px;
+    }
+
+    
+    .input-display {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.err-msg {
+    color: rgb(255, 105, 97);
+    width: 60%;
+/*    background-color: blue;*/
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.notif-msg {
+    color: rgb(160, 231, 160);
+    width: 60%;
+/*    background-color: blue;*/
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+label {
+    cursor: pointer;
+}
+
+
+.input-display {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.f {
+    width:160px !important;
+}
+
+.TOLER {
+    width:70px !important;
+}
+
+.output-box {
+    max-height: 400px;
+    margin-right: 20px;
+    overflow: scroll;
+}
+
+.content-container {
+    margin-top: 500px;
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar-track
+{
+	background-color: white;
+}
+
+::-webkit-scrollbar
+{
+	width: 0px;
+    height: 0px;
+	background-color: white;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: lightgrey;
+}
+
+
+
+
+
+
+
+
