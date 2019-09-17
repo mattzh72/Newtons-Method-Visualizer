@@ -4,10 +4,10 @@ This web app was made for my AP Calculus class. It computes and visualizes on a 
 
 > Newton's method is a root-finding algorithm which produces successively better approximations to the roots (or zeroes) of a real-valued function.
 
-Try inputting your own functions!
+Built with HTML5, CSS, and vanilla Javascript. Math is LaTexed for your viewing pleasure!
 
 # Usage
 
-Enter a real-valued function, a starting point, and the accuracy (used to stop the algorithm). Press enter, and scroll down to see the magic!
+Enter a real-valued function, a starting point, and the accuracy (used to stop the algorithm). Press enter, and scroll down to see the magic:
 
-![Demo](Assets/demo.gif)
+> ![Demo](Assets/demo.gif)
